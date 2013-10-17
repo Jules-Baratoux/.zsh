@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+# ┌───────────────────────────────────────────────────────────────────────────┐
+# │                                 GENERAL                                   │
+# └───────────────────────────────────────────────────────────────────────────┘
+
+export EDITOR='env USER=barato_j emacs'
+export VISUAL=$EDITOR
+export HISTFILE=$HOME/.history	# history location
+export HISTSIZE=1200            # lines of history to maintain memory
+export SAVEHIST=1000            # lines of history to maintain in history file.
+export MAILCHECK=0
+export PATH=$PATH:/usr/local/bin:/usr/local/sbin	# Packages
+export PATH=$PATH:/usr/sbin:/usr/bin:/sbin:/bin		# System
+export PATH=$PATH:~/scripts				# Personal scripts

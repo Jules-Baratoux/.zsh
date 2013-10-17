@@ -1,0 +1,51 @@
+#!/bin/zsh
+
+# ┌───────────────────────────────────────────────────────────────────────────┐
+# │                                  ALIAS                                    │
+# └───────────────────────────────────────────────────────────────────────────┘
+
+# SYSTEME
+alias df='df -h'
+alias du='du -h'
+alias ls='ls -h --color=auto'
+alias ln='ln -i'
+alias ll='ls -l'
+alias la='ls -A'
+alias lla='ll -A'
+alias cp='cp -vi'
+alias mv='mv -vi'
+alias rm='rm -v'
+
+alias ne='env USER=barato_j emacsclient -nw --alternate-editor=""'
+alias nw='env USER=barato_j emacs -nw'
+alias j='jobs'
+alias z='zlock'
+alias reload='source ~/.zshrc'
+alias rl='reload'
+alias grep='grep --color'
+alias c='clean.py --verbose --recursive'
+alias clean='clean.py -v'
+
+# TREE
+alias tree='     tree -CN --dirsfirst'
+alias ms='format tree -CN --dirsfirst -I "__pycache__|desktop.ini"'
+alias ma='format tree -CN --dirsfirst -I "__pycache__|desktop.ini" -a'
+
+# GIT
+alias add='git add'
+alias ci='git commit -m'
+alias st='git status'
+alias push='git push'
+alias pull='git pull'
+
+# SVN
+# alias add='svn add'
+# alias ci='svn_ci'
+# alias st='svn_st'
+alias co='svn_co'
+alias pospone='svn_pospone'
+alias up='svn_up'
+
+# CYGWIN
+alias e='explore'
+alias find='/cygdrive/c/cygwin/bin/find.exe'

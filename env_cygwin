@@ -1,0 +1,80 @@
+#!/bin/zsh
+
+# ┌───────────────────────────────────────────────────────────────────────────┐
+# │                                 CYGWIN                                    │
+# └───────────────────────────────────────────────────────────────────────────┘
+
+export USER=barato_j
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ALLUSERSPROFILE=C:\ProgramData
+# APPDATA=C:\Users\jules_000\AppData\Roaming
+# COMMONPROGRAMFILES=C:\Program Files (x86)\Common Files
+# COMPUTERNAME=LAPTOP
+# COMSPEC=C:\Windows\system32\cmd.exe
+# CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+# CommonProgramW6432=C:\Program Files\Common Files
+# FP_NO_HOST_CHECK=NO
+# HOMEDRIVE=C:
+# LOCALAPPDATA=C:\Users\jules_000\AppData\Local
+# LOGNAME=jules_000
+# LOGONSERVER=\\MicrosoftAccount
+# MAILCHECK=0
+# NUMBER_OF_PROCESSORS=4
+# OS=Windows_NT
+# PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# PROCESSOR_ARCHITECTURE=x86
+# PROCESSOR_ARCHITEW6432=AMD64
+# PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 37 Stepping 5, GenuineIntel
+# PROCESSOR_LEVEL=6
+# PROCESSOR_REVISION=2505
+# PROGRAMFILES=C:\Program Files (x86)
+# PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+# PUBLIC=C:\Users\Public
+# ProgramData=C:\ProgramData
+# ProgramFiles(x86)=C:\Program Files (x86)
+# ProgramW6432=C:\Program Files
+# SESSIONNAME=Console
+# SHLVL=2
+# SYSTEMDRIVE=C:
+# SYSTEMROOT=C:\Windows
+# TERM=xterm
+# USERDOMAIN=LAPTOP
+# USERDOMAIN_ROAMINGPROFILE=LAPTOP
+# USERNAME=jules_000
+# USERPROFILE=C:\Users\jules_000
+# VS110COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+# WINDIR=C:\Windows

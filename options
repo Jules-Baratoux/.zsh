@@ -1,0 +1,23 @@
+#!/bin/zsh
+
+# ┌───────────────────────────────────────────────────────────────────────────┐
+# │                                 OPTIONS                                   │
+# └───────────────────────────────────────────────────────────────────────────┘
+
+  setopt Extended_History
+  setopt Share_History
+unsetopt Auto_cd
+  setopt Append_History		# Append all session to HISTFILE
+unsetopt Beep			# Beep on error
+  setopt C_Bases		# Hexadecimal numbers in C format 0xFF
+  setopt Hist_ignore_dups	# Do not displaiy duplicates in history
+  setopt Auto_param_SLASH	# Complete directories with a trailing slash
+unsetopt Auto_remove_SLASH	# Remove last slash on completion if the next is a delimiter
+
+  setopt rm_Star_Wait		# Prompts for confirmation after 'rm *' etc
+
+autoload -U compinit		# Make completion case insensitive
+compinit -C
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'	\
+				    'r:|[._-]=* r:|=*'		\
+				    'l:|=* r:|=*'
